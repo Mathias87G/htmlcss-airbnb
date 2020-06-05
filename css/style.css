@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container
+
+.panorama {
+  border: 1px solid black;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.first {
+  background-image: url("../img/Berlino.jpg");
+}
+
+.second {
+  background-image: url("../img/Copenhagen.jpg");
+}
+
+.third {
+  background-image: url("../img/Stoccolma.jpg");
+}
