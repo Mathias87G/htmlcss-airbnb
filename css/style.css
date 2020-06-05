@@ -4,7 +4,29 @@
   box-sizing: border-box;
 }
 
-.container
+header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999999;
+  line-height: 70px;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 35px;
+  font-family: 'Indie Flower', sans-serif;
+  text-transform: uppercase;
+  line-height: 70px;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .panorama {
   border: 1px solid black;
@@ -16,22 +38,13 @@
 }
 
 .overlay {
-  height: 100%;
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: none;
-}
-
-.first {
-  background-image: url("../img/Berlino.jpg");
-}
-
-.second {
-  background-image: url("../img/Copenhagen.jpg");
-}
-
-.third {
-  background-image: url("../img/Stoccolma.jpg");
 }
 
 .destination {
@@ -46,6 +59,28 @@
   border-radius: 50%;
 }
 
+#first {
+  background-image: url("../img/Berlino.jpg");
+}
+
+#second {
+  background-image: url("../img/Copenhagen.jpg");
+}
+
+#third {
+  background-image: url("../img/Stoccolma.jpg");
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 5px;
+}
+
 .panorama:hover .overlay {
   display: block;
+}
+
+a:hover {
+  color: #8b3119
 }
