@@ -15,6 +15,12 @@
   position: relative;
 }
 
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
 .first {
   background-image: url("../img/Berlino.jpg");
 }
@@ -25,4 +31,16 @@
 
 .third {
   background-image: url("../img/Stoccolma.jpg");
+}
+
+.destination {
+  color: white;
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
