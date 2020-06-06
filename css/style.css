@@ -26,7 +26,6 @@ ul li {
 a {
   text-decoration: none;
   color: white;
-
 }
 
 .panorama {
@@ -87,5 +86,12 @@ a:hover {
 }
 
 .login {
-  text-align: right;
+  font-size: 32px;
+  font-family: 'Indie Flower', sans-serif;
+  text-transform: uppercase;
+  margin: 0 10px;
+  vertical-align: middle;
+  position: fixed;
+  top: 0;
+  right: 20px;
 }
