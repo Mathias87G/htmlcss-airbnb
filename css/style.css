@@ -19,11 +19,14 @@ ul li {
   font-family: 'Indie Flower', sans-serif;
   text-transform: uppercase;
   margin: 0 10px;
+  vertical-align: middle;
+  color: white;
 }
 
 a {
   text-decoration: none;
   color: white;
+
 }
 
 .panorama {
@@ -83,6 +86,6 @@ a:hover {
   color: #8b3119
 }
 
-img {
-  display: inline-block;
+.login {
+  text-align: right;
 }
